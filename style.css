@@ -3,12 +3,16 @@
 * {
   box-sizing: border-box;
   padding: 0;
+  margin: 0;
+}
+
+body {
+  text-align: center;
 }
 
 .container {
   max-width: 1000px;
-  margin: 30px auto;
-  text-align: center;
+  margin: 50px auto;
 }
 
 /* CSS dell'header */
@@ -17,10 +21,49 @@ h1 {
   font-family: "Bagel Fat One", cursive;
   font-weight: bolder;
   color: #e4306f;
+  margin-bottom: 20px;
 }
 
 header > p {
   font-family: Arial, Helvetica, sans-serif;
   color: #4f5879;
   font-size: 15px;
+  margin-bottom: 20px;
+}
+
+/* CSS del main (CARDS) */
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+img {
+  width: 75px;
+  float: left;
+}
+
+.etichetta {
+  background-color: rgb(12, 12, 12);
+  max-width: 300px;
+  box-shadow: 1px 2px 2px 2px #b5b5b5;
+}
+
+h4,
+h6 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  padding-left: 90px;
+  line-height: 25px;
+}
+
+a {
+  padding-right: 55px;
+  /* display: inline-block; */
+  color: #40a3cf;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 12px;
 }
