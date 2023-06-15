@@ -1,0 +1,26 @@
+/*  Impostazioni generali */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+/* CSS dell'header */
+
+h1 {
+  font-family: "Bagel Fat One", cursive;
+  font-weight: bolder;
+  color: #e4306f;
+}
+
+header > p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #4f5879;
+  font-size: 15px;
+}
