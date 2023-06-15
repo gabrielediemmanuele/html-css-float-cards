@@ -12,7 +12,7 @@ body {
 
 .container {
   max-width: 1000px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 /* CSS dell'header */
@@ -21,14 +21,14 @@ h1 {
   font-family: "Bagel Fat One", cursive;
   font-weight: bolder;
   color: #e4306f;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 header > p {
   font-family: Arial, Helvetica, sans-serif;
   color: #4f5879;
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* CSS del main (CARDS) */
